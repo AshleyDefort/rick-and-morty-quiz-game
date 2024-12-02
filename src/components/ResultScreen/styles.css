@@ -1,0 +1,100 @@
+.result-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  width: 80%;  
+  background-color: #F1A1E7;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #000000;
+  opacity: 0.9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.result-screen h1 {
+  font-size: 2em;
+  font-family: 'Yuji Mai', serif;
+  color: rgb(46, 71, 68);
+  text-align: center;
+}
+
+.result-screen h2 {
+  font-size: 1.5em;
+  font-family: 'Yuji Mai', serif;
+  color: rgb(46, 71, 68);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result-screen p{
+  font-size: 1.3em;
+  font-family: 'Yuji Mai', serif;
+  color: rgb(46, 71, 68);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.resultsInfo {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.unlockedCharacter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex: 1;
+}
+
+.character-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 65%;
+  text-align: center;
+  padding: 10px;
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.character-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.character-card p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.feedback-list {
+  max-height: 300px; 
+  overflow-y: auto;  
+  padding-left: 20px;
+}
+
+.feedback-list li {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.feedback-empty {
+  font-size: 1.2em;
+  color: #f44336;  
+  text-align: center;
+  font-weight: bold;
+}
+

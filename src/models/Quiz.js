@@ -1,32 +1,31 @@
 class Quiz {
-  constructor(questions, characters) {
+  constructor(questions) {
     this.questions = questions; 
-    this.characters = characters; 
-    this.currentQuestionIndex = 0; 
-    this.player = null; 
-  }
-
-  setPlayer(player) {
-    this.player = player; 
+    this.currentQuestionIndex = 0;
+    this.score = 0;
+    this.feedback = [];
   }
 
   getCurrentQuestion() {
-    return this.questions[this.currentQuestionIndex]; 
+    return this.questions[this.currentQuestionIndex];
   }
 
   answerQuestion(answer) {
     const currentQuestion = this.getCurrentQuestion();
     if (currentQuestion.isCorrectAnswer(answer)) {
-      this.player.increaseScore(10); 
-      const characterToUnlock = this.characters[this.currentQuestionIndex];
-      if (characterToUnlock) {
-        this.player.unlockCharacter(characterToUnlock); 
-      }
+      this.score += 10;
+    } else {
+      this.feedback.push({
+        question: currentQuestion.questionText,
+        correct: currentQuestion.correctAnswer,
+      });
     }
     this.currentQuestionIndex++;
   }
 
   isFinished() {
-    return this.currentQuestionIndex >= this.questions.length; 
+    return this.currentQuestionIndex >= this.questions.length;
   }
 }
+
+export default Quiz;
