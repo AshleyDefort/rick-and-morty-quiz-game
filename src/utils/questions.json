@@ -1,0 +1,152 @@
+[
+  {
+    "questionText": "¿Qué es phishing?",
+    "options": ["Correo fraudulento", "Hackeo de servidores", "Malware", "Robo físico"],
+    "correctAnswer": "Correo fraudulento"
+  },
+  {
+    "questionText": "¿Qué es grooming?",
+    "options": ["Control parental", "Acoso en línea a menores", "Hacer trampa en videojuegos", "Hackeo de correos"],
+    "correctAnswer": "Acoso en línea a menores"
+  },
+  {
+    "questionText": "¿Qué se recomienda hacer si recibes un correo sospechoso?",
+    "options": ["Abrir los enlaces", "Eliminarlo", "Responder al remitente", "Compartirlo en redes sociales"],
+    "correctAnswer": "Eliminarlo"
+  },
+  {
+    "questionText": "¿Qué es un malware?",
+    "options": ["Software malicioso", "Antivirus", "Correo basura", "Actualización de sistema"],
+    "correctAnswer": "Software malicioso"
+  },
+  {
+    "questionText": "¿Qué significa HTTPS en un sitio web?",
+    "options": ["Conexión segura", "Hackeo seguro", "Servidor público", "Red interna"],
+    "correctAnswer": "Conexión segura"
+  },
+  {
+    "questionText": "¿Cuál es una práctica segura para crear contraseñas?",
+    "options": ["Usar palabras comunes", "Combinar letras, números y símbolos", "Reutilizar contraseñas", "Compartirla con amigos"],
+    "correctAnswer": "Combinar letras, números y símbolos"
+  },
+  {
+    "questionText": "¿Qué es el ransomware?",
+    "options": ["Software para robar datos", "Secuestro de datos", "Antivirus", "Actualización de sistema"],
+    "correctAnswer": "Secuestro de datos"
+  },
+  {
+    "questionText": "¿Qué hacer al usar una red Wi-Fi pública?",
+    "options": ["Acceder a cuentas bancarias", "Evitar enviar datos sensibles", "Usar contraseñas débiles", "Conectarse sin precaución"],
+    "correctAnswer": "Evitar enviar datos sensibles"
+  },
+  {
+    "questionText": "¿Qué es un firewall?",
+    "options": ["Protección contra ataques", "Virus", "Correo basura", "Navegador web"],
+    "correctAnswer": "Protección contra ataques"
+  },
+  {
+    "questionText": "¿Qué es una VPN?",
+    "options": ["Red privada virtual", "Software antivirus", "Servidor de juegos", "Actualización de red"],
+    "correctAnswer": "Red privada virtual"
+  },
+  {
+    "questionText": "¿Qué es un keylogger?",
+    "options": ["Software que registra teclas", "Antivirus", "Actualización de sistema", "Programa de mensajería"],
+    "correctAnswer": "Software que registra teclas"
+  },
+  {
+    "questionText": "¿Qué es un ataque de fuerza bruta?",
+    "options": ["Intentar múltiples contraseñas", "Ataque físico", "Correo no deseado", "Hackeo de redes"],
+    "correctAnswer": "Intentar múltiples contraseñas"
+  },
+  {
+    "questionText": "¿Qué es la autenticación de dos factores?",
+    "options": ["Verificación adicional", "Contraseñas cortas", "Firewall avanzado", "Sincronización de dispositivos"],
+    "correctAnswer": "Verificación adicional"
+  },
+  {
+    "questionText": "¿Qué tipo de información no deberías compartir en redes sociales?",
+    "options": ["Tu ubicación", "Fotos de paisajes", "Opiniones generales", "Noticias públicas"],
+    "correctAnswer": "Tu ubicación"
+  },
+  {
+    "questionText": "¿Qué es el ciberacoso?",
+    "options": ["Acoso en línea", "Actualización de sistema", "Control parental", "Hackeo de servidores"],
+    "correctAnswer": "Acoso en línea"
+  },
+  {
+    "questionText": "¿Qué significa hacer un backup?",
+    "options": ["Copiar datos importantes", "Eliminar datos", "Enviar datos", "Actualizar software"],
+    "correctAnswer": "Copiar datos importantes"
+  },
+  {
+    "questionText": "¿Qué es un spyware?",
+    "options": ["Software espía", "Protección de datos", "Correo basura", "Actualización de sistema"],
+    "correctAnswer": "Software espía"
+  },
+  {
+    "questionText": "¿Qué precaución tomar con enlaces desconocidos?",
+    "options": ["Evitar hacer clic", "Abrirlos siempre", "Compartirlos", "Marcarlos como seguros"],
+    "correctAnswer": "Evitar hacer clic"
+  },
+  {
+    "questionText": "¿Qué es el robo de identidad?",
+    "options": ["Usar información personal sin autorización", "Antivirus defectuoso", "Control parental", "Acceso a redes públicas"],
+    "correctAnswer": "Usar información personal sin autorización"
+  },
+  {
+    "questionText": "¿Qué es un ataque de phishing dirigido?",
+    "options": ["Spear phishing", "Keylogging", "Spam", "Virus"],
+    "correctAnswer": "Spear phishing"
+  },
+  {
+    "questionText": "¿Cómo proteger tus dispositivos móviles?",
+    "options": ["Actualizar el sistema", "Desactivar contraseñas", "Usar Wi-Fi públicas", "Instalar aplicaciones desconocidas"],
+    "correctAnswer": "Actualizar el sistema"
+  },
+  {
+    "questionText": "¿Qué es el sniffing?",
+    "options": ["Intercepción de datos", "Correo basura", "Antivirus", "Firewall"],
+    "correctAnswer": "Intercepción de datos"
+  },
+  {
+    "questionText": "¿Qué es un exploit?",
+    "options": ["Vulnerabilidad explotada", "Correo fraudulento", "Actualización de sistema", "Software antivirus"],
+    "correctAnswer": "Vulnerabilidad explotada"
+  },
+  {
+    "questionText": "¿Qué es el pharming?",
+    "options": ["Redirección maliciosa", "Correo no deseado", "Actualización de software", "Firewall"],
+    "correctAnswer": "Redirección maliciosa"
+  },
+  {
+    "questionText": "¿Qué hacer con una contraseña comprometida?",
+    "options": ["Cambiarla inmediatamente", "Seguir usándola", "Compartirla", "Ignorar el problema"],
+    "correctAnswer": "Cambiarla inmediatamente"
+  },
+  {
+    "questionText": "¿Qué es el shoulder surfing?",
+    "options": ["Observar sobre el hombro", "Hackeo remoto", "Software malicioso", "Correo fraudulento"],
+    "correctAnswer": "Observar sobre el hombro"
+  },
+  {
+    "questionText": "¿Qué es un ataque DDoS?",
+    "options": ["Saturar un servidor", "Actualizar contraseñas", "Enviar correos no deseados", "Bloquear redes sociales"],
+    "correctAnswer": "Saturar un servidor"
+  },
+  {
+    "questionText": "¿Qué es un botnet?",
+    "options": ["Red de dispositivos infectados", "Correo fraudulento", "Antivirus avanzado", "Control parental"],
+    "correctAnswer": "Red de dispositivos infectados"
+  },
+  {
+    "questionText": "¿Qué hacer si tu cuenta es hackeada?",
+    "options": ["Cambiar contraseñas y avisar al soporte", "Ignorar el problema", "Usar la misma contraseña", "Compartir el acceso"],
+    "correctAnswer": "Cambiar contraseñas y avisar al soporte"
+  },
+  {
+    "questionText": "¿Qué es un rootkit?",
+    "options": ["Software para ocultar accesos", "Correo basura", "Firewall", "Navegador web"],
+    "correctAnswer": "Software para ocultar accesos"
+  }
+]
